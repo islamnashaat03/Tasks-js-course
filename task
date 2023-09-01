@@ -1,0 +1,78 @@
+
+/* Tasks: 
+1-  حول نوع البيانات الآتي ل number  
+
+var text = "10"
+
+2-  احمد صاحب محل حلويات عنده البيانات دي في المحل 
+
+
+var candies = {
+    chocolate: 10,
+    lollipops: null,
+    sourStrips: undefined,
+    jellyBeans: 8,
+    licorice: null,
+};
+
+بعض انواع الحلويات null or undefined  يعني غير موجوده 
+
+احمد عايز يتأكد ان لو في نوع حلوى مش موجود يعني null or undefined  
+يظهرله بشكل default  يعني نوع حلوى معين اسمه gummyBears 
+
+var gummyBears = 1;
+طبق المثال ال فات باستخدام nullish operator 
+
+3- محمد الطحاوي فتح محل شاورما سوري المحل فيه الحاجات دي 
+
+
+var shawarma = {
+   meat : 2,
+   chick : 3,
+} 
+
+اعمل فانكشن اسمها getShawarma  الفانكشن دي بتستقبل 2 براميترز 
+اسم الشخص ال عايز يشتري الساندوتش 
+عمر الشخص ال هيشتري الساندوتش 
+
+مع مراعاة الشروط الآتيه 
+
+لو عمر الشخص اكبر من او يساوي 20  اطبلعه في الكونسول ساندوتش meat  غير كده 
+اطبعله في الكونسول  ساندوتش شاورما الفراخ مثال 
+shawarma.meat
+or
+shawarma.chick 
+
+4- اعمل فانكشن اسمها calculate الفانكشن دي بتستقبل 3 براميترز 
+num1,num2,method
+وهتبدأ تشيك لو البرام الثالث  sum  يبقى هتجمع الرقمين ال هم num1,num2  وتطبع النتيجه في الكونسول ولو البرام الثالثsub   يبقى هتطرح الرقمين وتطبع النتيجه في الكونسول 
+
+ولو البرام الثالث  multi يبقى هضرب الرقمين وتطبع النتيجه في الكونسول 
+ولو البرام الثالث divid  يبقى هتقسم الرقمين على بعض وتطبع النتيجه في الكونسول 
+
+مثال : 
+function calculate(num1,num2,method) {
+ if (method === "sum") {
+  var result = num1 + num2 
+  console.log(result)
+}
+....etc 
+
+else ->  console.log("Unknown Method, Try Agin")
+و دي بنظرهرها لو هو حط مكان الميثود حاجه مش مفهومة 
+} 
+
+مثال 
+
+calculate(1,2, "daaaa") -> console.log("Unknown Method, Try Agin")
+calculate(1,2, "sum") -> console.log(3)
+calculate(1,2, "multi ") -> console.log(2)
+...etc
+
+5-  اعمل المثال السابق  في فايل اسمة README.md  و ارفعه على الجيت هب ونسقه بلغة 
+markdown language 
+
+6- Search : switch -> 
+ابحث عنها واعمل على الاقل مثالين ليها 
+7- ternary operator -> 
+ابحث عنها واعمل ع الاقل مثالين ليها */
