@@ -105,3 +105,5 @@ function getFee(isMember) {
 console.log(getFee(true));
 console.log(getFee(false));
 console.log('================================');
+
+object.assign();
