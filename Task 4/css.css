@@ -37,3 +37,46 @@ img {
   grid-template-columns: 1fr;
 
 }
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+
+
+}
+
+input,
+textarea {
+  height: 55px;
+  margin-bottom: 45px;
+  font-size: 20px;
+  padding-inline-start: 15px;
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+  font-size: 20px;
+  padding-inline-start: 15px;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+  margin-bottom: 0;
+  font-size: 20px;
+
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 55px;
+  margin: auto;
+  font-size: 24px;
+}

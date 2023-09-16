@@ -30,3 +30,11 @@ if (obj.hasOwnProperty('age')) {
 }
 
 console.log('================================');
+
+let arr = ['ahmed', ' ali', ' selime', ' islam ', ' hussien'];
+// console.log(arr.sort());
+
+let risylt = arr.map(function (e) {
+  return e.trim();
+});
+console.log(risylt.sort());
