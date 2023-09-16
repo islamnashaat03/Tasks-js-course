@@ -19,7 +19,6 @@ img {
 
 }
 
-.container {}
 
 .wrapper {
   display: grid;
@@ -31,13 +30,6 @@ img {
   container-type: inline-size;
 
 }
-
-@container (max-width:475px) {
-
-  grid-template-columns: 1fr;
-
-}
-
 
 form {
   display: flex;
