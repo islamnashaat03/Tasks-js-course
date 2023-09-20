@@ -41,3 +41,12 @@ document.querySelector('.btn').onclick = function () {
   newEle.innerText = 'Iam created from js file';
   document.body.appendChild(newEle);
 };
+
+// 4
+myDiv = document.querySelector('.my-div');
+myP = document.createElement('p');
+
+myDiv.onclick = function () {
+  console.log('myDiv clicked');
+  document.body.appendChild(myP);
+};
