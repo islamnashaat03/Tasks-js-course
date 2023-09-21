@@ -1,35 +1,35 @@
-@font-face {
-  font-family: 'din-font';
-  src: url('fonts/Din-font/din-font.eot');
-  src: url('fonts/Din-font/din-font.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Din-font/din-font.otf') format('otf'),
-    url('fonts/Din-font/din-font.svg#din-font') format('svg'),
-    url('fonts/Din-font/din-font.ttf') format('truetype'),
-    url('fonts/Din-font/din-font.woff') format('woff'),
-    url('fonts/Din-font/din-font.woff2') format('woff2');
-}
+// @font-face {
+//   font-family: 'din-font';
+//   src: url('fonts/Din-font/din-font.eot');
+//   src: url('fonts/Din-font/din-font.eot?#iefix') format('embedded-opentype'),
+//     url('fonts/Din-font/din-font.otf') format('otf'),
+//     url('fonts/Din-font/din-font.svg#din-font') format('svg'),
+//     url('fonts/Din-font/din-font.ttf') format('truetype'),
+//     url('fonts/Din-font/din-font.woff') format('woff'),
+//     url('fonts/Din-font/din-font.woff2') format('woff2');
+// }
 
-@font-face {
-  font-family: 'geometric-font';
-  src: url('fonts/Geometric-font/geometric-font.eot');
-  src: url('fonts/Geometric-font/geometric-font.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Geometric-font/geometric-font.otf') format('otf'),
-    url('fonts/Geometric-font/geometric-font.svg#geometric-font') format('svg'),
-    url('fonts/Geometric-font/geometric-font.ttf') format('truetype'),
-    url('fonts/Geometric-font/geometric-font.woff') format('woff'),
-    url('fonts/Geometric-font/geometric-font.woff2') format('woff2');
-}
+// @font-face {
+//   font-family: 'geometric-font';
+//   src: url('fonts/Geometric-font/geometric-font.eot');
+//   src: url('fonts/Geometric-font/geometric-font.eot?#iefix') format('embedded-opentype'),
+//     url('fonts/Geometric-font/geometric-font.otf') format('otf'),
+//     url('fonts/Geometric-font/geometric-font.svg#geometric-font') format('svg'),
+//     url('fonts/Geometric-font/geometric-font.ttf') format('truetype'),
+//     url('fonts/Geometric-font/geometric-font.woff') format('woff'),
+//     url('fonts/Geometric-font/geometric-font.woff2') format('woff2');
+// }
 
-@font-face {
-  font-family: 'Cairo-Regular';
-  src: url('fonts/Cairo-font/Cairo-Regular.eot');
-  src: url('fonts/Cairo-font/Cairo-Regular.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Cairo-font/Cairo-Regular.otf') format('otf'),
-    url('fonts/Cairo-font/Cairo-Regular.svg#Cairo-Regular') format('svg'),
-    url('fonts/Cairo-font/Cairo-Regular.ttf') format('truetype'),
-    url('fonts/Cairo-font/Cairo-Regular.woff') format('woff'),
-    url('fonts/Cairo-font/Cairo-Regular.woff2') format('woff2');
-}
+// @font-face {
+//   font-family: 'Cairo-Regular';
+//   src: url('fonts/Cairo-font/Cairo-Regular.eot');
+//   src: url('fonts/Cairo-font/Cairo-Regular.eot?#iefix') format('embedded-opentype'),
+//     url('fonts/Cairo-font/Cairo-Regular.otf') format('otf'),
+//     url('fonts/Cairo-font/Cairo-Regular.svg#Cairo-Regular') format('svg'),
+//     url('fonts/Cairo-font/Cairo-Regular.ttf') format('truetype'),
+//     url('fonts/Cairo-font/Cairo-Regular.woff') format('woff'),
+//     url('fonts/Cairo-font/Cairo-Regular.woff2') format('woff2');
+// }
 
 
 $transition:all .5s ease-in-out;
@@ -39,7 +39,7 @@ $fontDin:'din-font';
 $fontCairo:'Cairo-Regular';
 $fontGeometric:'geometric-font';
 $textColor:#707070;
-$mainColor:#B25489;
+$mainColor:#BDA138;
 $lightMainColor:#B486BB;
 $backgroundColor:#EEEDF3;
 // $goldColor:#CFAD7E;
